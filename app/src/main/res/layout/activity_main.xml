@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    tools:context="com.sfpcc.can.firstappsrembang.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/panjang"
+        android:layout_marginBottom="@dimen/layout_marginBottom"/>
+    <EditText
+        android:id="@+id/edt_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/layout_marginBottom"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lebar"
+        android:layout_marginBottom="@dimen/layout_marginBottom"/>
+    <EditText
+        android:id="@+id/edt_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/layout_marginBottom"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tinggi"
+        android:layout_marginBottom="@dimen/layout_marginBottom"/>
+    <EditText
+        android:id="@+id/edt_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/layout_marginBottom"/>
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_hitung"
+        android:layout_marginBottom="@dimen/layout_marginBottom"/>
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil"
+        android:gravity="center"/>
+
+</LinearLayout>
